@@ -1,0 +1,66 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(oip.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #333;
+  }
+  
+  #tic-tac-toe-board {
+    display: flex;
+    flex-direction:column ;
+    flex-direction: row;
+
+  }
+  
+  .cell {
+    background-color: whitesmoke;;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center; /* zodat de x en de o in de midde gaat */
+    align-items: center;    /* zodat de x en de o in de midde gaat */
+    font-size: 2rem;       /* de groote van de x en de o */
+    width: 100px;
+    height: 100px;
+    font-weight: 700;
+  }
+  
+  .cell:hover {
+    background-color: transparent;
+  }
+  
+  .game-message {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    color: #333;
+  }
+  
+  #resetButton {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  #resetButton:hover {
+    background-color: #555;
+  }
+  #row1{
+    margin-top: 8px;
+  }
+
+  #row3{
+    margin-top: 8px;
+  }
